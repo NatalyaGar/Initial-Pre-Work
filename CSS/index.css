@@ -5,7 +5,9 @@ header {
 .header {
   grid-area: header;
 }
-
+/* article {
+  text-align: center;
+} */
 .name {
   font-family: "Calistoga", cursive;
   font-weight: bolder;
@@ -27,9 +29,26 @@ section {
   width: 50%;
   float: left;
 }
+summary {
+  width: 50%;
+  float: right;
+}
 .bio-image {
   margin: 0px 20px 3px 0px;
   width: 170px;
   height: 180px;
   float: left;
+}
+
+footer {
+  background-color: rgb(120, 183, 241);
+  color: #cccccc;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+  clear: both;
+  font-family: "Calistoga", cursive;
 }
