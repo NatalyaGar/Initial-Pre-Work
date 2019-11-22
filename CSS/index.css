@@ -1,5 +1,6 @@
 header {
   background-color: rgb(120, 183, 241);
+  border-bottom: 2px solid white;
 }
 
 body {
@@ -25,14 +26,7 @@ h3 {
   padding: 15px;
   letter-spacing: 5px;
 }
-.who {
-  font-family: "Calistoga", cursive;
-  font-weight: bolder;
-  font-size: 1, 5em;
-  color: white;
-  text-align: center;
-  margin-top: -30px;
-}
+
 section {
   width: 48%;
   float: left;
@@ -41,7 +35,7 @@ section {
   margin-top: 5%;
   border: 1px solid rgb(120, 183, 241);
 }
-summary {
+aside {
   width: 45%;
   float: right;
   margin-left: 2%;
@@ -81,6 +75,7 @@ footer {
   clear: both;
   font-family: "Calistoga", cursive;
   letter-spacing: 3px;
+  border-top: 2px solid white;
 }
 
 /*Sticky footer----------------------------------*/
