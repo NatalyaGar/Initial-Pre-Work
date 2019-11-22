@@ -42,9 +42,10 @@ section {
   border: 1px solid rgb(120, 183, 241);
 }
 summary {
-  width: 48%;
+  width: 45%;
   float: right;
   margin-left: 2%;
+  margin-right: 2%;
   background-color: white;
   margin-top: 5%;
   border: 1px solid rgb(120, 183, 241);
@@ -58,10 +59,16 @@ summary {
 }
 a {
   padding-left: 30%;
+  color: rgb(132, 170, 241);
+}
+.link:hover {
+  color: rgb(47, 0, 255);
 }
 
-p {
+p,
+li {
   padding-right: 2%;
+  color: rgb(80, 113, 145);
 }
 
 footer {
