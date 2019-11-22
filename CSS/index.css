@@ -5,10 +5,12 @@ header {
 body {
   background-image: url(../Images/blue-snow.png);
 }
-
-/* .header {
-  grid-area: header;
-} */
+h3 {
+  font-family: "Calistoga", cursive;
+  color: rgb(120, 183, 241);
+  text-align: center;
+  letter-spacing: 5px;
+}
 
 .name {
   font-family: "Calistoga", cursive;
@@ -18,6 +20,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 15px;
+  letter-spacing: 5px;
 }
 .who {
   font-family: "Calistoga", cursive;
@@ -33,6 +36,7 @@ section {
   margin-left: 2%;
   background-color: white;
   margin-top: 5%;
+  border: 1px solid rgb(120, 183, 241);
 }
 summary {
   width: 48%;
@@ -40,6 +44,7 @@ summary {
   margin-left: 2%;
   background-color: white;
   margin-top: 5%;
+  border: 1px solid rgb(120, 183, 241);
 }
 .bio-image {
   margin: 0px 20px 3px 0px;
