@@ -10,6 +10,9 @@ h3 {
   color: rgb(120, 183, 241);
   text-align: center;
   letter-spacing: 5px;
+  border-bottom: 2px solid rgb(120, 183, 241);
+  margin: 0px 26px 0px 22px;
+  padding-top: 1%;
 }
 
 .name {
@@ -51,6 +54,14 @@ summary {
   width: 170px;
   height: 180px;
   float: left;
+  padding-left: 4%;
+}
+a {
+  padding-left: 30%;
+}
+
+p {
+  padding-right: 2%;
 }
 
 footer {
