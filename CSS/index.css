@@ -2,6 +2,10 @@ header {
   background-color: rgb(120, 183, 241);
 }
 
+body {
+  background-image: url(../Images/blue-snow.png);
+}
+
 /* .header {
   grid-area: header;
 } */
@@ -24,12 +28,18 @@ header {
   margin-top: -30px;
 }
 section {
-  width: 50%;
+  width: 48%;
   float: left;
+  margin-left: 2%;
+  background-color: white;
+  margin-top: 5%;
 }
 summary {
-  width: 50%;
+  width: 48%;
   float: right;
+  margin-left: 2%;
+  background-color: white;
+  margin-top: 5%;
 }
 .bio-image {
   margin: 0px 20px 3px 0px;
